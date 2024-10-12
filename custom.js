@@ -73,7 +73,7 @@ module.exports = async ({ api }) => {
 
       async function message(thread) {
         try {
-          api.sendMessage(`› Hello🤗 How are you? (ᴗ˳ᴗ)`, thread.threadID, (err) => { if (err) return });
+          api.sendMessage(`› Hello🤗 How are you? ako lng love ni raiza (ᴗ˳ᴗ)`, thread.threadID, (err) => { if (err) return });
         } catch (error) {
           console.error("Error sending a message:", error);
         }
